@@ -9,11 +9,6 @@ InjiVerifyVpRequest:
       inputTemplate: mimoto/LoginFlow/Presentations/InjiVerifyVpRequest/InjiVerifyVpRequest
       outputTemplate: mimoto/LoginFlow/Presentations/InjiVerifyVpRequest/InjiVerifyVpRequestResult
       input: '{
-      "clientId": "decentralized_identifier:did:web:mosip.github.io:inji-mock-services:openid4vp-service:docs",
-      "nonce": "NkdHJkBIbdOdQaAjWm8gpA",
-      "acceptVPWithoutHolderProof": false,
-      "responseCodeValidationRequired": false
       }'
       output: '{
-    "responseCode": "201"
 }'
