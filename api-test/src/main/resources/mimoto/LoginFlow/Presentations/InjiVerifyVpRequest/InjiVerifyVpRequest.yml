@@ -9,6 +9,7 @@ InjiVerifyVpRequest:
       inputTemplate: mimoto/LoginFlow/Presentations/InjiVerifyVpRequest/InjiVerifyVpRequest
       outputTemplate: mimoto/LoginFlow/Presentations/InjiVerifyVpRequest/InjiVerifyVpRequestResult
       input: '{
+      "clientId": "$CLIENT_ID_INJI_VERIFY$"
       }'
       output: '{
 }'
